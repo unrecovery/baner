@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*replace local font*/
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+/* font-family: 'Roboto', sans-serif; */
+
+.contenedor{
+  width: 1366px;
+  height: 100px;
+  background-image: linear-gradient(to right, #652ee3, #782ad9, #8728cf, #9227c5, #9b28bc, #ab1aab, #b60a9a, #bd0089, #c5006b, #c6004e, #c00032, #b51515);
+}
+
+.contenido{
+  padding-top: 10px;
+padding-left: 140px;
+}
+
+.titulo{
+
+font-size: 40px;
+font-weight: 400;
+padding-bottom: 6px;
+}
+/* background-image: linear-gradient(to right, #b33a84, #af1a95, #a000ad, #7f00ca, #1b12eb);*/
+.logo{
+  top:1px;
+  left: 60px;
+  width:80px;
+  height:80px;
+  position: absolute;
+}
+.texto{
+  padding-left:20px;
+  font-size: 20px;
+}
